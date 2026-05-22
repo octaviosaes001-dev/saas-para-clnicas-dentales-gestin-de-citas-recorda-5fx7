@@ -1,0 +1,30 @@
+{
+  "name": "saas-para-clínicas-dentales:-gestión-de-citas,-recordatorios-automatizados-con-ia-y-seguimiento-de-tratamientos",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "next": "15.0.0",
+    "react": "19.0.0",
+    "@anthropic-ai/sdk": "^1.0.0",
+    "openai": "^1.0.0",
+    "@google/generative-ai": "^1.0.0",
+    "@supabase/supabase-js": "^2.0.0",
+    "stripe": "^9.0.0",
+    "resend": "^1.0.0",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "tailwindcss": "4.0.0",
+    "@tailwindcss/postcss": "^1.0.0",
+    "@types/node": "^20.0.0",
+    "@types/react": "^19.0.0",
+    "eslint": "^8.0.0"
+  }
+}
